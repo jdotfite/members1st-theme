@@ -2,12 +2,7 @@
 /css
 /js
 /build
-/dist
 mix-manifest.json
-app.css
-editor-style.css
-custom-button-showcase.js
-custom-button.js
 
 # Node dependencies
 /node_modules

@@ -1,0 +1,25 @@
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "custom.css"; /*shared styles for editor and site*/
+@import "variables.css"; /*shared styles for editor and site*/
+
+body {
+    @apply font-sans;
+}
+
+.wp-block{
+    @apply max-w-screen-xl !important;
+}
+
+.wp-block[data-align=wide] {
+    @apply max-w-screen-xl !important;
+}
+
+.wp-block[data-align=full] {
+    @apply max-w-full !important;
+}
+
+.tailpress-full-width {
+    max-width: unset !important;
+  
+} 

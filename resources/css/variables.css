@@ -1,0 +1,132 @@
+/* File: resources/css/variables.css */
+
+:root {
+  --on-background: #000000;
+  --on-background-inverse: #ffffff;
+  --on-background-hover: #ffffff;
+
+
+  /* Typography */
+  --font-primary: 'Open Sans', sans-serif;
+  --font-secondary: 'din-2014', sans-serif;
+
+  /* Brand Colors */
+  --color-brand-red: #dc3737;
+  --color-brand-yellow: #fee3a3;
+  --color-brand-dark-blue: #213d70;
+
+  /* Tones */
+  --color-gray-lightest: #eaeaea;
+  --color-gray-lighter: var(--wp--preset--color--gray-lighter);
+  --color-gray-light: var(--wp--preset--color--gray-light);
+  --color-gray-mid-light: var(--wp--preset--color--gray-mid-light);
+  --color-gray-mid-dark: var(--wp--preset--color--gray-mid-dark);
+  --color-gray-dark: var(--wp--preset--color--gray-dark);
+  --color-gray-darker: var(--wp--preset--color--gray-darker);
+  --color-gray-darkest: var(--wp--preset--color--gray-darkest);
+
+  /* Primary Colors */
+  --color-primary: #000;
+  --color-primary-hover: #fff;
+  --color-primary-visited: #8700B5;
+  --color-primary-border: #000;
+  --color-primary-border-hover: #000;
+  --color-primary-background: transparent;
+  --color-primary-background-hover: black;
+  --color-primary-background-selected: #00255D;
+
+  /* Secondary Colors */
+  --color-secondary: #0F1A1C;
+  --color-secondary-hover: #000000;
+  --color-secondary-weak: #595959;
+  --color-secondary-background: #EAEDEF;
+  --color-secondary-background-hover: #E2E7E9;
+  --color-secondary-background-selected: #D2DADD;
+  --color-secondary-plain: #0F1A1C;
+  --color-secondary-plain-hover: #000000;
+
+  /* Button Colors */
+  --color-btn-outline-text: var(--color-tone-2);
+  --color-btn-outline-text-hover: var(--color-tone-7);
+  --color-btn-outline-primary-border: #000;
+  --color-btn-outline-primary-border-hover: #000;
+  --color-btn-outline-primary-background: transparent;
+  --color-btn-outline-primary-background-hover: black;
+
+  /* Link Colors */
+  --color-a-default: var(--color-primary-background-hover);
+  --color-a-hover: var(--color-primary-background-hover);
+  --color-a-visited: var(--color-primary-background-hover);
+
+  /* Input Styles */
+  --input-border: var(--color-primary);
+
+  /* Swiper Styles */
+  --swiper-theme-color: #a6211b;
+  --swiper-pagination-color: var(--swiper-theme-color);
+  --swiper-pagination-bullet-inactive-color: var(--swiper-theme-color);
+  --swiper-pagination-bullet-inactive-opacity: 0.2;
+  --swiper-pagination-bullet-size: 8px;
+  --swiper-pagination-bullet-horizontal-gap: 4px;
+  --swiper-navigation-color: #ed3f38;
+  --swiper-navigation-size: 44px;
+  --swiper-pagination-active-color: var(--swiper-theme-color);
+}
+.editor-styles-wrapper.dark,
+.dark {
+  --on-background: #FFFFFF;
+  --on-background-inverse: #000000;
+  --on-background-hover: #000000;
+  --secondary-color: #A6A6A6;
+
+  --text-primary: green;
+  --color-global-white: #ffffff;
+  --color-a-default: ##ed7e7e;
+  --color-primary: #ffffff;
+
+  --color-brand-yellow: #1f3b3d;
+
+  --color-gray-lightest: #020202;
+  --color-gray-lighter: var(--wp--preset--color--gray-darker);
+  --color-gray-light: var(--wp--preset--color--gray-dark);
+  --color-gray-mid-light: var(--wp--preset--color--gray-mid-dark);
+  --color-gray-mid-dark: var(--wp--preset--color--gray-mid-light);
+  --color-gray-dark: var(--wp--preset--color--gray-light);
+  --color-gray-darker: var(--wp--preset--color--gray-lighter);
+  --color-gray-darkest: var(--wp--preset--color--gray-lightest);
+
+  --color-primary-hover: #fff;
+  --color-primary-background: #dc3737;
+  --color-primary-background-hover: #bf2b2b;
+  --color-primary-border: #dc3737;
+  --color-primary-border-hover: var(--color-primary-background-hover);
+  --color-primary-background-selected: #ed7e7e;
+
+  --color-btn-outline-text: var(--color-tone-2);
+  --color-btn-outline-text-hover: var(--color-tone-7);
+  --color-btn-outline-primary-border: #ddd;
+  --color-btn-outline-primary-border-hover: var(--color-btn-outline-primary-border);
+  --color-btn-outline-primary-background: transparent;
+  --color-btn-outline-primary-background-hover: var(--color-btn-outline-primary-border);
+
+  --color-a-default: var(--color-primary-background-hover);
+
+  --color-primary-onBackground: #fff;
+  --color-primary-onBackground-hover: #000;
+  --color-primary-onBackground-background: transparent;
+  --color-primary-onBackground-background-hover: #ffffff;
+  --color-primary-onBackground-border: #ffffff;
+  --color-primary-onBackground-border-hover: #222;
+
+  --color-secondary: #f3f3f3;
+  --color-secondary-weak: #A6A6A6;
+  --color-secondary-background: #252525;
+  --color-secondary-background-hover: #2f2f2f;
+  --color-secondary-background-selected: #424242;
+  --color-secondary-plain: #f3f3f3;
+
+  --input-border: var(--color-primary);
+
+  --swiper-theme-color: #888888;
+
+}

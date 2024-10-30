@@ -1,0 +1,43 @@
+# Build and compiled assets
+/css
+/js
+/build
+/dist
+mix-manifest.json
+app.css
+editor-style.css
+custom-button-showcase.js
+custom-button.js
+
+# Node dependencies
+/node_modules
+
+# Development tools and logs
+repopack-output.txt
+*.log
+*.map
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files
+.idea
+.vscode
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Local development
+*.local
+local-config.php
+
+# Keep resources directory (source files)
+!resources/css
+!resources/js

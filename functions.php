@@ -130,3 +130,12 @@ function tailpress_increase_style_priority() {
 }
 add_action('wp_print_styles', 'tailpress_increase_style_priority');
 
+//Register the navigation menu
+function register_theme_menus() {
+    register_nav_menus(
+        array(
+            'primary' => __('Primary Menu', 'tailpress')
+        )
+    );
+}
+add_action('after_setup_theme', 'register_theme_menus');

@@ -71,7 +71,27 @@
   .btn-2xl { @apply text-2xl px-8 py-3.5; }
 }
 
+/* Only apply these styles when admin bar is present */
+#wpadminbar header {
 
+  top: 32px !important; /* Height of admin bar */
+
+}
+
+/* Handle mobile admin bar height */
+@media screen and (max-width: 782px) {
+ #wpadminbar header {
+      top: 46px; /* Mobile admin bar height */
+  }
+}
+
+/* When admin bar is not present, navigation sits at top */
+.site-navigation {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+}
 
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');

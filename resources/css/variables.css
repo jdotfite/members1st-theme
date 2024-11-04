@@ -16,14 +16,31 @@
   --color-brand-dark-blue: #213d70;
 
   /* Tones */
-  --color-gray-lightest: #eaeaea;
-  --color-gray-lighter: var(--wp--preset--color--gray-lighter);
-  --color-gray-light: var(--wp--preset--color--gray-light);
-  --color-gray-mid-light: var(--wp--preset--color--gray-mid-light);
-  --color-gray-mid-dark: var(--wp--preset--color--gray-mid-dark);
-  --color-gray-dark: var(--wp--preset--color--gray-dark);
-  --color-gray-darker: var(--wp--preset--color--gray-darker);
-  --color-gray-darkest: var(--wp--preset--color--gray-darkest);
+  --gray-1: #fcfcfc;
+  --gray-2: #f9f9f9;
+  --gray-3: #f0f0f0;
+  --gray-4: #e8e8e8;
+  --gray-5: #e0e0e0;
+  --gray-6: #d9d9d9;
+  --gray-7: #cecece;
+  --gray-8: #9c9c9c;
+  --gray-9: #6a6a6a;
+  --gray-10: #383838;
+  --gray-11: #222222;
+  --gray-12: #0b0b0b;
+  --gray-a1: #00000003;
+  --gray-a2: #00000006;
+  --gray-a3: #0000000f;
+  --gray-a4: #00000017;
+  --gray-a5: #0000001f;
+  --gray-a6: #00000026;
+  --gray-a7: #00000031;
+  --gray-a8: #00000044;
+  --gray-a9: #00000072;
+  --gray-a10: #0000007c;
+  --gray-a11: #0000009b;
+  --gray-a12: #000000df;
+
 
   /* Primary Colors */
   --color-primary: #000;
@@ -86,15 +103,32 @@
 
   --color-brand-yellow: #1f3b3d;
 
-  --color-gray-lightest: #020202;
-  --color-gray-lighter: var(--wp--preset--color--gray-darker);
-  --color-gray-light: var(--wp--preset--color--gray-dark);
-  --color-gray-mid-light: var(--wp--preset--color--gray-mid-dark);
-  --color-gray-mid-dark: var(--wp--preset--color--gray-mid-light);
-  --color-gray-dark: var(--wp--preset--color--gray-light);
-  --color-gray-darker: var(--wp--preset--color--gray-lighter);
-  --color-gray-darkest: var(--wp--preset--color--gray-lightest);
-
+  /* Gray */
+  --gray-1: #0b0b0b;
+  --gray-2: #222222;
+  --gray-3: #383838;
+  --gray-4: #6a6a6a;
+  --gray-5: #9c9c9c;
+  --gray-6: #cecece;
+  --gray-7: #d9d9d9;
+  --gray-8: #e0e0e0;
+  --gray-9: #e8e8e8;
+  --gray-10: #f0f0f0;
+  --gray-11: #f9f9f9;
+  --gray-12: #fcfcfc;
+  --gray-a1: #0000;
+  --gray-a2: #ffffff09;
+  --gray-a3: #ffffff12;
+  --gray-a4: #ffffff1b;
+  --gray-a5: #ffffff22;
+  --gray-a6: #ffffff2c;
+  --gray-a7: #ffffff3b;
+  --gray-a8: #ffffff55;
+  --gray-a9: #ffffff64;
+  --gray-a10: #ffffff72;
+  --gray-a11: #ffffffaf;
+  --gray-a12: #ffffffed;
+ 
   --color-primary-hover: #fff;
   --color-primary-background: #dc3737;
   --color-primary-background-hover: #bf2b2b;

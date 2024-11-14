@@ -9,6 +9,9 @@
   /* Typography */
   --font-primary: 'Open Sans', sans-serif;
   --font-secondary: 'din-2014', sans-serif;
+  /* OpenType features */
+  --font-features-base: 'kern', 'liga', 'clig', 'calt';
+  --font-features-nums: 'tnum', 'lnum';
 
   /* Brand Colors */
   --color-brand-red: #dc3737;

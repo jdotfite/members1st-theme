@@ -1,8 +1,7 @@
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
-@import "custom.css"; /*shared styles for editor and site*/
-@import "variables.css"; /*shared styles for editor and site*/
+@import "app.css";
 
+
+/* Editor specific styles */
 body {
     @apply font-sans;
 }
@@ -21,5 +20,4 @@ body {
 
 .tailpress-full-width {
     max-width: unset !important;
-  
-} 
+}
